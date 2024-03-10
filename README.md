@@ -24,42 +24,39 @@ This project is a RESTful API built using Flask, a lightweight web framework for
 
 ## Setup
 
+```markdown
+## Setup
+
 To set up and run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kyle-Galloway01/PythonBackendDeveloperSkills.git
+   git clone https://github.com/yourusername/PythonBackendDeveloperSkills.git
+   ```
 
-Install the dependencies:
+2. Navigate to the project directory:
+   ```bash
+   cd PythonBackendDeveloperSkills
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Set up the database:
+3. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-python manage.py db init
-python manage.py db migrate
-python manage.py db upgrade
-Run the application:
+4. Set up the database:
+   ```bash
+   python manage.py db init
+   python manage.py db migrate
+   python manage.py db upgrade
+   ```
 
-bash
-Copy code
-python run.py
-Access the API at http://localhost:5000.
+5. Run the application:
+   ```bash
+   python run.py
+   ```
 
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+6. Access the API at `http://localhost:5000`.
+```
 
-Fork the repository.
-Create a new branch (git checkout -b feature/new-feature).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/new-feature).
-Create a new pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-For any inquiries or feedback, please contact me at your.email@example.com.
+You can copy this section and paste it into your GitHub README.md file in the desired location. Make sure to replace `https://github.com/yourusername/PythonBackendDeveloperSkills.git` with the actual URL of your GitHub repository.
