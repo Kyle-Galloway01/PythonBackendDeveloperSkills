@@ -29,3 +29,37 @@ To set up and run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Kyle-Galloway01/PythonBackendDeveloperSkills.git
+
+Install the dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Set up the database:
+
+bash
+Copy code
+python manage.py db init
+python manage.py db migrate
+python manage.py db upgrade
+Run the application:
+
+bash
+Copy code
+python run.py
+Access the API at http://localhost:5000.
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/new-feature).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/new-feature).
+Create a new pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any inquiries or feedback, please contact me at your.email@example.com.
