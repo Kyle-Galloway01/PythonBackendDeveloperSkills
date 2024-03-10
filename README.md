@@ -31,7 +31,7 @@ To set up and run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/PythonBackendDeveloperSkills.git
+   git clone https://github.com/kyle-Galloway01/PythonBackendDeveloperSkills.git
    ```
 
 2. Navigate to the project directory:
@@ -59,4 +59,4 @@ To set up and run the project locally, follow these steps:
 6. Access the API at `http://localhost:5000`.
 ```
 
-You can copy this section and paste it into your GitHub README.md file in the desired location. Make sure to replace `https://github.com/yourusername/PythonBackendDeveloperSkills.git` with the actual URL of your GitHub repository.
+
