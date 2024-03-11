@@ -43,20 +43,25 @@ To set up and run the project locally, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
+   or
+   
+   ```bash
+   pip install --user Flask Flask-SQLAlchemy Flask-Marshmallow
+   ```
 
-4. Set up the database:
+5. Set up the database:
    ```bash
    python manage.py db init
    python manage.py db migrate
    python manage.py db upgrade
    ```
 
-5. Run the application:
+6. Run the application:
    ```bash
    python run.py
    ```
 
-6. Access the API at `http://localhost:5000`.
+7. Access the API at `http://localhost:5000`.
 ```
 
 
